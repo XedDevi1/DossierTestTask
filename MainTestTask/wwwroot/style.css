@@ -31,3 +31,14 @@ input {
     padding: 5px;
     border: 1px solid #000;
 }
+
+.jstree-anchor {
+    color: #000;
+    white-space: normal;
+    padding: 0 4px 0 1px;
+    margin: 0;
+    margin-right: 20px; /* Отступ справа */
+    vertical-align: top;
+    overflow: auto;
+    width: 90%; /* Ширина элемента */
+}
