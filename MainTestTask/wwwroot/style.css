@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainWindow {
+    position: relative;
+    min-height: 100vh;
+}
+
+.bar {
+    height: 50px;
+    background-color: rgb(17, 81, 142);
+}
+
+input {
+    display: block;
+}
+
+.content {
+    height: calc(100vh - 100px);
+    overflow: auto;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #000;
+}
